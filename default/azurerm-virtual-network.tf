@@ -56,16 +56,6 @@ resource "azurerm_subnet" "aks-1-ingress" {
   address_prefixes                               = ["10.220.4.0/22"]
 }
 
-resource "azurerm_subnet" "aml" {
-  name                                           = "AmlSubnet"
-  resource_group_name                            = azurerm_resource_group.default.name
-  virtual_network_name                           = azurerm_virtual_network.aks-1-vnet.name
-  private_endpoint_network_policies_enabled      = false
-  address_prefixes                               = ["10.220.8.0/24"]
-}
-
-
-
 # peerings
 #
 # hub-to-spoke-1
