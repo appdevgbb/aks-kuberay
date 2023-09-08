@@ -1,5 +1,5 @@
 # Pattern - Using Azure ML on AKS
-This is a demo repo to deploy Azure ML on Azure Kubernetes Service cluster.
+This is a demo repo to deploy KubeRay on Azure Kubernetes Service cluster.
 
 <p align="center"><img src="https://github.com/appdevgbb/pattern-aks-private-azureml/blob/main/assets/logo.png" width="250" height="250"></p>
 
@@ -13,6 +13,8 @@ This is a demo repo to deploy Azure ML on Azure Kubernetes Service cluster.
  - [x] Jumpbox
  - [x] Azure Firewall
  
+![architecture-diagram]('./assets/architecture-diagram.png')
+
 ### Steps to run this demo
 
 To install the full solution:
